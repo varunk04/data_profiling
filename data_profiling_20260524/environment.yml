@@ -1,0 +1,10 @@
+name: data-profiling
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - setuptools>=65.0.0,<82.0.0
+  - pip:
+      - -r requirements.txt

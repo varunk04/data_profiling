@@ -1,0 +1,9 @@
+[project]
+name = "data-profiling-evaluation-platform"
+version = "0.1.0"
+description = "Streamlit dashboard for comparing data profiling tools"
+readme = "docs/SETUP.md"
+requires-python = ">=3.10,<3.14"
+
+[tool.setuptools]
+packages = ["app"]
